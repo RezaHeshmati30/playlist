@@ -2,14 +2,15 @@ name: Update Twitch M3U
 
 on:
   schedule:
-    - cron: '0 * * * *'  # هر ساعت یکبار. (UTC)
-  workflow_dispatch:      # اجرای دستی هم ممکنه
+    - cron: '0 * * * *'  # هر 1 ساعت یکبار
+  workflow_dispatch:      # امکان اجرای دستی
 
 jobs:
   update-playlist:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Set up Python
@@ -20,13 +21,15 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run script
+      - name: Run update script
         run: python update.py
 
-      - name: Commit changes
+      - name: Commit and push changes
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
           git add playlist.m3u
-          git commit -m "Update Twitch link in playlist" || echo "No changes to commit"
-          git push
+          git commit -m "Auto-update Twitch link" || echo "No changes to commit"
+          git push https://x-access-token:${TOKEN}@github.com/${{ github.repository }}.git HEAD:main
