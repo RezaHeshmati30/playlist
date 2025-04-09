@@ -5,8 +5,8 @@ https://hls.pmchd.live/hls/stream.m3u8
 https://rohls.pmc.live/hls/stream.m3u8
 #EXTINF:-1,Manoto TV  
 https://manoto.icdndhcp.com/hls/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My84LzIwMjUgODowNzo0MSBQTSZoYXNoX3ZhbHVlPVNOSU1zYk1yNUtEUEZDQTRBUWJ4Q3c9PSZ2YWxpZG1pbnV0ZXM9MzA=
-#EXTINF:-1,ManotoArchive
-https://manoto.icdndhcp.com
+#EXTINF:-1 tvg-id="manoto" tvg-name="ManotoArchive" group-title="Persian",Manoto Archive
+https://placeholder/ManotoArchive.m3u8
 #EXTINF:-1,Radio Javan  
 https://rjtvhls.wns.live/hls/stream.m3u8
 #EXTINF:-1,Home+  
