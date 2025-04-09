@@ -1,9 +1,9 @@
-name: Update Twitch M3U
+name: Update Twitch Stream in M3U
 
 on:
   schedule:
-    - cron: '0 * * * *'  # هر 1 ساعت یکبار
-  workflow_dispatch:      # امکان اجرای دستی
+    - cron: '0 * * * *'  # هر 1 ساعت
+  workflow_dispatch:      # اجرا دستی
 
 jobs:
   update-playlist:
@@ -19,7 +19,10 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install requests
+        run: |
+          pip install requests
+          sudo apt update
+          sudo apt install -y streamlink
 
       - name: Run update script
         run: python update.py
