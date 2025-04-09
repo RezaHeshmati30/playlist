@@ -1,27 +1,45 @@
-import requests
+import subprocess
 import re
 
-# کانال Twitch مورد نظر
-channel = "ManotoArchive"
+# فایل M3U اصلی
+M3U_FILE = "playlist.m3u"
 
-# گرفتن فایل m3u فعلی
-with open("playlist.m3u", "r") as f:
-    content = f.read()
+# کانالی که می‌خوای لینک M3U8ش آپدیت بشه
+channel_name = "ManotoArchive"
 
-# گرفتن لینک m3u جدید از سایت Twitch-proxy (یا مشابهش)
-# این قسمت برای تست از streamlinkproxy استفاده می‌کنیم:
-url = f"https://api.streamlinkproxy.com/{channel}.m3u8"
-response = requests.get(url)
+def get_stream_url(channel):
+    try:
+        result = subprocess.run(
+            ["streamlink", f"https://twitch.tv/{channel}", "best", "--stream-url"],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True
+        )
+        url = result.stdout.strip()
+        if url.startswith("http"):
+            return url
+    except Exception as e:
+        print("Error while fetching stream URL:", e)
+    return None
 
-if response.status_code == 200:
-    new_url = response.text.strip()
-    print("New Twitch URL:", new_url)
+def update_m3u_file(new_url):
+    with open(M3U_FILE, "r", encoding="utf-8") as file:
+        content = file.read()
 
-    # جایگزین کردن URL در فایل m3u
-    updated = re.sub(r'https://.*\.m3u8', new_url, content)
+    # لینک قبلی رو با جدید جایگزین کن (اگر برچسب خاصی داشته باشه بهتره)
+    updated_content = re.sub(
+        r"https?://.*?ManotoArchive.*?\.m3u8",
+        new_url,
+        content
+    )
 
-    # ذخیره
-    with open("playlist.m3u", "w") as f:
-        f.write(updated)
-else:
-    print("Failed to get new URL")
+    with open(M3U_FILE, "w", encoding="utf-8") as file:
+        file.write(updated_content)
+
+if __name__ == "__main__":
+    stream_url = get_stream_url(channel_name)
+    if stream_url:
+        print(f"Got stream URL: {stream_url}")
+        update_m3u_file(stream_url)
+    else:
+        print("Failed to get stream URL.")
