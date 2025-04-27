@@ -1,6 +1,6 @@
 #EXTM3U  
 #EXTINF:-1,PMC  
-https://hls.pmchd.live/hls/stream.m3u8
+https://hls.pmc.live/hls/stream.m3u8
 #EXTINF:-1,PMC Royale  
 https://rohls.pmc.live/hls/stream.m3u8
 #EXTINF:-1,Manoto TV  
@@ -107,8 +107,6 @@ https://fastdehost.com/live/kingmovie.m3u8
 https://hls.avang.live/hls/stream.m3u8
 #EXTINF:-1,Navahang  
 https://hls.navahang.live/hls/stream.m3u8
-#EXTINF:-1,Navahang  
-https://hls.navahang.live/hls/stream.m3u8
 #EXTINF:-1,Iran Beauty
 https://irbthls.wns.live/hls/stream.m3u8
 #EXTINF:-1,SUN Music TV  
@@ -119,8 +117,6 @@ https://afrafhls.wns.live/hls/stream.m3u8
 https://afrashls.wns.live/hls/stream.m3u8
 #EXTINF:-1,Iran International 
 https://live.playstop.me/LS-63503-4/index.m3u8
-#EXTINF:-1,Iran International 2
-https://dev-live.livetvstream.co.uk/LS-63503-4/index.m3u8
 #EXTINF:-1,VOA Persian  
 https://voa-ingest.akamaized.net/hls/live/2033876/tvmc07/playlist_0360.m3u8
 #EXTINF:-1,Cafe Trade
@@ -150,14 +146,12 @@ https://metafilmhls.wns.live/hls/stream.m3u8
 #EXTINF:-1,VOX
 https://hls.vox1.live/hls/stream.m3u8
 #EXTINF:-1,ZDF  
-https://zdf-hls-15.akamaized.net/hls/live/2016498/de/23ce7d09760ca6fef4b6d59aee85b3c1/4/4.m3u8
-#EXTINF:-1,ZDF  
 https://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8
 #EXTINF:-1,Erste 1  
 https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8
 #EXTINF:-1,Tagesschau  
 https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
-#EXTINF:-1,YDF Neo  
+#EXTINF:-1,ZDF Neo  
 https://zdf-hls-16.akamaized.net/hls/live/2016499/de/high/master.m3u8
 #EXTINF:-1,3Sat  
 https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/high/master.m3u8
