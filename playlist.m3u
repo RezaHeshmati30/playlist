@@ -7,7 +7,7 @@ https://rohls.pmc.live/hls/stream.m3u8
 https://manototvhd.icdndhcp.com/hls/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yNy8yMDI1IDk6MDU6MDEgUE0maGFzaF92YWx1ZT1FRDdVWlRzdkdQaE9iMkNCN3k2aldBPT0mdmFsaWRtaW51dGVzPTMw
 #EXTINF:-1 tvg-id="RadioJavan" tvg-name="Radio Javan" tvg-country="IR" tvg-logo="https://i.imgur.com/a1zuW2C.png" group-title="Music",Radio Javan
 https://rjtvhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="HomePlus" tvg-name="Home+" tvg-country="IR" tvg-logo="https://i.postimg.cc/Ss1m0pFy/temp-Image6-CCSKi.avif" group-title="Lifestyle",Home+
+#EXTINF:-1 tvg-id="HomePlus" tvg-name="Home+" tvg-country="IR" tvg-logo="https://imgur.com/a/Fi3Xr9P" group-title="Lifestyle",Home+
 https://homeplushls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="4UFamilyTV" tvg-name="4U FAMILY TV HD" tvg-country="IR" tvg-logo="https://i.postimg.cc/FKgKBqHR/temp-Image-H6-ZQ7-D.avif" group-title="Family",4U FAMILY TV HD
 https://familyhls.4utv.live/hls/stream.m3u8
