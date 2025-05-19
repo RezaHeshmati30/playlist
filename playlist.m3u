@@ -153,6 +153,8 @@ https://zdf-hls-16.akamaized.net/hls/live/2016499/de/high/master.m3u8
 https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/high/master.m3u8
 #EXTINF:-1 tvg-id="KIKA" tvg-name="KIKA" tvg-country="DE" tvg-logo="https://www.ballettschule-im-hofgarten.de/wp-content/uploads/Kika-logo.png" group-title="Kids",KIKA
 https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master.m3u8
+#EXTINF:-1 tvg-id="Deutsche Welle" tvg-name="Deutsche Welle" tvg-country="DE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8e/DW_%28TV%29_Logo_2012.png" group-title="News",Deutsche Welle
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1 tvg-id="TV1" tvg-name="TV 1" tvg-country="IR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/IRIBTV1.svg/289px-IRIBTV1.svg.png" group-title="Entertainment",TV 1
 https://lenz.splus.ir/PLTV/88888888/224/3221226637/index.m3u8
 #EXTINF:-1 tvg-id="TV1Telewebion" tvg-name="TV 1- telewebion" tvg-country="IR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/IRIBTV1.svg/289px-IRIBTV1.svg.png" group-title="Entertainment",TV 1- telewebion
