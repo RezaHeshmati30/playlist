@@ -143,15 +143,15 @@ https://tixbolt.com/royaltv/tracks-v1a1/mono.ts.m3u8
 https://metafilmhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ZDF" tvg-name="ZDF" tvg-country="DE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/ZDF_logo.svg/1280px-ZDF_logo.svg.png" group-title="Entertainment",ZDF
 https://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8
-#EXTINF:-1 tvg-id="Erste1" tvg-name="Erste 1" tvg-country="DE" tvg-logo="https://www.ard.de/assets/ard-logo.png" group-title="Entertainment",Erste 1
+#EXTINF:-1 tvg-id="Erste1" tvg-name="Erste 1" tvg-country="DE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9b/Das_Erste_HD_Corner-Logo_2015.png" group-title="Entertainment",Erste 1
 https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8
-#EXTINF:-1 tvg-id="Tagesschau" tvg-name="Tagesschau" tvg-country="DE" tvg-logo="https://www.tagesschau.de/resources/images/tagesschau-logo.png" group-title="News",Tagesschau
+#EXTINF:-1 tvg-id="Tagesschau" tvg-name="Tagesschau" tvg-country="DE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/Tagesschau.de_logo.svg" group-title="News",Tagesschau
 https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
-#EXTINF:-1 tvg-id="ZDFNeo" tvg-name="ZDF Neo" tvg-country="DE" tvg-logo="https://www.zdf.de/assets/zdfneo-logo-100" group-title="Entertainment",ZDF Neo
+#EXTINF:-1 tvg-id="ZDFNeo" tvg-name="ZDF Neo" tvg-country="DE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Zdf_neo_hd.svg/2560px-Zdf_neo_hd.svg.png" group-title="Entertainment",ZDF Neo
 https://zdf-hls-16.akamaized.net/hls/live/2016499/de/high/master.m3u8
-#EXTINF:-1 tvg-id="3Sat" tvg-name="3Sat" tvg-country="DE" tvg-logo="https://www.3sat.de/assets/3sat-logo.png" group-title="Entertainment",3Sat
+#EXTINF:-1 tvg-id="3Sat" tvg-name="3Sat" tvg-country="DE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/1200px-3sat_2019.svg.png" group-title="Entertainment",3Sat
 https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/high/master.m3u8
-#EXTINF:-1 tvg-id="KIKA" tvg-name="KIKA" tvg-country="DE" tvg-logo="https://www.kika.de/resources/images/kika-logo.png" group-title="Kids",KIKA
+#EXTINF:-1 tvg-id="KIKA" tvg-name="KIKA" tvg-country="DE" tvg-logo="https://www.ballettschule-im-hofgarten.de/wp-content/uploads/Kika-logo.png" group-title="Kids",KIKA
 https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master.m3u8
 #EXTINF:-1 tvg-id="TV1" tvg-name="TV 1" tvg-country="IR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/IRIBTV1.svg/289px-IRIBTV1.svg.png" group-title="Entertainment",TV 1
 https://lenz.splus.ir/PLTV/88888888/224/3221226637/index.m3u8
