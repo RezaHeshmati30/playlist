@@ -141,7 +141,7 @@ https://hls.yourtime.live/hls/stream.m3u8
 https://tixbolt.com/royaltv/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="Meta" tvg-name="Meta" tvg-country="IR" tvg-logo="https://www.lyngsat.com/logo/tv/mm/meta-film-tv.png" group-title="Entertainment",Meta
 https://metafilmhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="ZDF" tvg-name="ZDF" tvg-country="DE" tvg-logo="https://www.zdf.de/assets/zdf-logo-100" group-title="Entertainment",ZDF
+#EXTINF:-1 tvg-id="ZDF" tvg-name="ZDF" tvg-country="DE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/ZDF_logo.svg/1280px-ZDF_logo.svg.png" group-title="Entertainment",ZDF
 https://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8
 #EXTINF:-1 tvg-id="Erste1" tvg-name="Erste 1" tvg-country="DE" tvg-logo="https://www.ard.de/assets/ard-logo.png" group-title="Entertainment",Erste 1
 https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8
