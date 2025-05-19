@@ -1,16 +1,15 @@
 import subprocess
 import re
 
-# فایل M3U اصلی
 M3U_FILE = "playlist.m3u"
 
-# کانالی که می‌خوای لینک M3U8ش آپدیت بشه
-channel_name = "ManotoArchive"
+# فقط آیدی ویدیو رو بذار، نه کل لینک
+youtube_video_id = "QeiFiF9VTtw"  # از لینک استخراج شده
 
-def get_stream_url(channel):
+def get_youtube_stream_url(video_id):
     try:
         result = subprocess.run(
-            ["streamlink", f"https://twitch.tv/{channel}", "best", "--stream-url"],
+            ["streamlink", f"https://www.youtube.com/watch?v={video_id}", "best", "--stream-url"],
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             text=True
@@ -26,9 +25,9 @@ def update_m3u_file(new_url):
     with open(M3U_FILE, "r", encoding="utf-8") as file:
         content = file.read()
 
-    # لینک قبلی رو با جدید جایگزین کن (اگر برچسب خاصی داشته باشه بهتره)
+    # فرض بر اینکه قبلاً در m3u یک خط با برچسب خاص برای یوتیوب گذاشتی
     updated_content = re.sub(
-        r"https?://.*?ManotoArchive.*?\.m3u8",
+        r"https?://.*?youtube.*?\.m3u8",
         new_url,
         content
     )
@@ -37,7 +36,7 @@ def update_m3u_file(new_url):
         file.write(updated_content)
 
 if __name__ == "__main__":
-    stream_url = get_stream_url(channel_name)
+    stream_url = get_youtube_stream_url(youtube_video_id)
     if stream_url:
         print(f"Got stream URL: {stream_url}")
         update_m3u_file(stream_url)
