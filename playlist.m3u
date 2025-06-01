@@ -126,7 +126,7 @@ https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persia
 #EXTINF:-1 tvg-id="TinTV" tvg-name="Tin TV" tvg-country="IR" tvg-logo="https://i.imgur.com/hMqGs94.png" group-title="Entertainment",Tin TV
 https://bozztv.com/1gbw5/tintv/tintv/chunklist.m3u8
 #EXTINF:-1 tvg-id="Didaniha" tvg-name="Didaniha" tvg-country="IR" tvg-logo="https://i.postimg.cc/MpGGcXs6/temp-Imagexn5-Rrm.avif" group-title="Entertainment",Didaniha
-https://hls-k8lightn-livepush.akamaized.net/live_cdn/nsXYtVLRDOkagw/emVQ2nB9BvriTNZK/tracks-v1a1/mono.m3u8
+https://932y493eljv8-hls-live.5centscdn.com/didiptv4/aniha4.stream/chunks.m3u8
 #EXTINF:-1 tvg-id="Tapesh" tvg-name="Tapesh" tvg-country="IR" tvg-logo="https://i.imgur.com/50JzsmH.png" group-title="Entertainment",Tapesh
 https://iptv.tapesh.tv/tapesh/playlist_low/index.m3u8
 #EXTINF:-1 tvg-id="TapeshIran" tvg-name="Tapesh Iran" tvg-country="IR" tvg-logo="https://i.imgur.com/50JzsmH.png" group-title="Entertainment",Tapesh Iran
