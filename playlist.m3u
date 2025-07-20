@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://example.com/epg.xml" catchup-type="shift"
 #EXTINF:-1 tvg-id="PMC" tvg-name="PMC" tvg-country="IR" tvg-logo="https://i.imgur.com/kuYMKgG.png" group-title="Entertainment",PMC
-https://hls.pmc.live/hls/stream.m3u8
+https://cdn3.wowza.com/1/ZDBESEcyZ3MyMkVo/YTNwTXZ1/hls/hpxnhb41/360/chunklist.m3u8
 #EXTINF:-1 tvg-id="PMCRoyale" tvg-name="PMC Royale" tvg-country="IR" tvg-logo="https://i.imgur.com/kuYMKgG.png" group-title="Entertainment",PMC Royale
 https://rohls.pmc.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ManotoTV" tvg-name="Manoto TV" tvg-country="IR" tvg-logo="https://i.imgur.com/8wE1Lbp.png" group-title="Entertainment",Manoto TV
@@ -68,7 +68,7 @@ https://fastdehost.com/live/digimovie.m3u8
 #EXTINF:-1 tvg-id="SerialBaran" tvg-name="Serial Baran" tvg-country="IR" group-title="Series",Serial Baran
 https://fastdehost.com/live/serialbaran1.m3u8
 #EXTINF:-1 tvg-id="MBCPersia" tvg-name="MBC Persia" tvg-country="IR" tvg-logo="https://i.imgur.com/4FXiyjn.png" group-title="Entertainment",MBC Persia
-https://shls-mbcpersia-prod-dub.shahid.net/out/v1/bdc7cd0d990e4c54808632a52c396946/index_1.m3u8
+https://hls.mbcpersia.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ICCTV" tvg-name="ICC TV" tvg-country="IR" tvg-logo="https://i.postimg.cc/bYZnFykF/temp-Imagec-IPYVP.avif" group-title="Entertainment",ICC TV
 https://icchls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="NetTV" tvg-name="Net TV" tvg-country="IR" tvg-logo="https://i.postimg.cc/T3zgnZpH/temp-Imagedht40-F.avif" group-title="Entertainment",Net TV
@@ -98,7 +98,7 @@ https://orangehls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="NegahTV" tvg-name="Negah TV" tvg-country="IR" tvg-logo="https://i.imgur.com/NFsBd4D.png" group-title="Entertainment",Negah TV
 https://iptv.negahtv.com/negahtv/playlist_low/index.m3u8
 #EXTINF:-1 tvg-id="Khatereh" tvg-name="Khatereh" tvg-country="IR" tvg-logo="https://www.lyngsat.com/logo/tv/kk/khatereh-tv-de.png" group-title="Entertainment",Khatereh
-https://castor.streamthatvideo.co:8081/khaterehtv/tracks-v1a1/mono.m3u8
+https://stella.streamerr.co:3844/live/khaterehtvlive.m3u8
 #EXTINF:-1 tvg-id="KingMovie" tvg-name="King Movie" tvg-country="IR" tvg-logo="https://i.postimg.cc/nVjmSSZK/temp-Imagec-GZ7k-O.avif" group-title="Movies",King Movie
 https://fastdehost.com/live/kingmovie.m3u8
 #EXTINF:-1 tvg-id="Avang" tvg-name="Avang" tvg-country="IR" tvg-logo="https://i.imgur.com/3I1n7fO.png" group-title="Music",Avang
