@@ -117,6 +117,30 @@ https://live.livetvstream.co.uk/LS-63503-4/chunklist_b1196000.m3u8
 https://voa-ingest.akamaized.net/hls/live/2033876/tvmc07/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCPersian" tvg-name="BBC Persian" tvg-country="UK" tvg-logo="https://i.imgur.com/4uTMnPb.png" group-title="News",BBC Persian
 https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/t=3840/v=pv14/b=5070016/main.m3u8
+#EXTINF:-1 tvg-id="Euronews" tvg-name="Euronews" tvg-country="USA" tvg-logo="" group-title="News",Euronews
+https://a-cdn.klowdtv.com/live3/euronews_720p/chunks.m3u8
+#EXTINF:-1 tvg-id="Revolution TV" tvg-name="Revolution TV" tvg-country="USA" tvg-logo="" group-title="News",Revolution TV
+https://hls.irannrtv.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="Dej TV" tvg-name="Dej TV" tvg-country="USA" tvg-logo="" group-title="News",Dej TV
+https://rdejhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="Pars TV" tvg-name="Pars TV" tvg-country="USA" tvg-logo="" group-title="News",Pars TV
+https://parshls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="Iran TV Israel" tvg-name="Iran TV Israel" tvg-country="USA" tvg-logo="" group-title="News",Iran TV Israel
+https://streaminglive.co.il:3730/live/raniamranilive.m3u8
+#EXTINF:-1 tvg-id="Radio Farda TV" tvg-name="Radio Farda TV" tvg-country="USA" tvg-logo="" group-title="News",Radio Farda TV
+https://rferl-ingest.akamaized.net/hls/live/2121768/tvmc01/playlist_0576.m3u8
+#EXTINF:-1 tvg-id="Khabarbin TV" tvg-name="Khabarbin TV" tvg-country="USA" tvg-logo="" group-title="News",Khabarbin TV
+https://khbhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="ITC TV" tvg-name="ITC TV" tvg-country="USA" tvg-logo="" group-title="News",ITC TV
+https://spf-cors-itctv.cfpass1.workers.dev/?url=https%3A%2F%2Fstream.castr.com%2F6762194902ac17bd275d775c%2Flive_4f894a10bcd811efba81b178a13fa3de%2Ftracks-v1a1%2Fmono.ts.m3u8
+#EXTINF:-1 tvg-id="Kanal Jadid" tvg-name="Kanal Jadid" tvg-country="USA" tvg-logo="" group-title="News",Kanal Jadid
+https://kjhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="Simaye Azadi" tvg-name="Simaye Azadi" tvg-country="USA" tvg-logo="" group-title="News",Simaye Azadi
+https://simaytv.akamaized.net/hls/live/a162cb6c-3be1-4e57-87dc-a75a50b3b8d9/simayhls/37/media.m3u8
+#EXTINF:-1 tvg-id="Woman TV" tvg-name="Woman TV" tvg-country="USA" tvg-logo="" group-title="News",Woman TV
+https://wmtvhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="Setareh TV" tvg-name="Setareh TV" tvg-country="USA" tvg-logo="" group-title="News",Setareh TV
+https://setarehhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="CafeTrade" tvg-name="Cafe Trade" tvg-country="IR" tvg-logo="https://i.ibb.co/GW4cMfc/cafe-trade-tv.png" group-title="Business",Cafe Trade
 https://cafetradehls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="Ayeneh" tvg-name="Ayeneh" tvg-country="IR" tvg-logo="https://i.imgur.com/aHdixeT.png" group-title="Entertainment",Ayeneh
@@ -163,6 +187,8 @@ https://ncdn.telewebion.com/tv1/live/playlist.m3u8
 https://lenz.splus.ir/PLTV/88888888/224/3221226176/index.m3u8
 #EXTINF:-1 tvg-id="TV3" tvg-name="TV 3" tvg-country="IR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/IRIB_TV3_LOGO.svg/320px-IRIB_TV3_LOGO.svg.png" group-title="Entertainment",TV 3
 https://live-bshto1208.telewebion.com/ek/tv3/live/1080p/index.m3u8
+#EXTINF:-1 tvg-id="TV3" tvg-name="TV 3 test" tvg-country="IR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/IRIB_TV3_LOGO.svg/320px-IRIB_TV3_LOGO.svg.png" group-title="Entertainment",TV 3
+https://spf-cors-aprt-84bdghr83hdhj.cfpass1.workers.dev/?url=https://gg.hls2.xyz/live/tv3/chunks.m3u8
 #EXTINF:-1 tvg-id="TV5" tvg-name="TV 5" tvg-country="IR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/IRIBTV5.svg/208px-IRIBTV5.svg.png" group-title="Entertainment",TV 5
 https://ncdn.telewebion.com/tehran/live/playlist.m3u8
 #EXTINF:-1 tvg-id="Nasim" tvg-name="Nasim" tvg-country="IR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Nasim_TV_logo.svg/320px-Nasim_TV_logo.svg.png" group-title="Entertainment",Nasim
