@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://example.com/epg.xml" catchup-type="shift"
 #EXTINF:-1 tvg-id="PMC" tvg-name="PMC" tvg-country="IR" tvg-logo="https://i.imgur.com/kuYMKgG.png" group-title="Entertainment",PMC
-https://spf-cors-onetv-54ghnd401.cfpass1.workers.dev/?url=https://ca-rt.onetv.app/PMCMusic/index-0.m3u8
+https://ca-rt.onetv.app:8443/PMCMusic/index-0.m3u8?token=onetv202
 #EXTINF:-1 tvg-id="PMCRoyale" tvg-name="PMC Royale" tvg-country="IR" tvg-logo="https://i.imgur.com/kuYMKgG.png" group-title="Entertainment",PMC Royale
 https://pmcrohls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ManotoTV" tvg-name="Manoto TV" tvg-country="IR" tvg-logo="https://i.imgur.com/8wE1Lbp.png" group-title="Entertainment",Manoto TV
@@ -61,8 +61,8 @@ https://slonehls.wns.live/hls/stream.m3u8
 https://sltwohls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ITN" tvg-name="ITN" tvg-country="IR" tvg-logo="https://i.imgur.com/U4sKHWy.png" group-title="News",ITN
 https://itnhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="ME2" tvg-name="ME2" tvg-country="IR" tvg-logo="https://i.postimg.cc/1RbvvYnw/temp-Imagejyadz-C.avif" group-title="Entertainment",ME2
-https://me2hls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="Royal TV" tvg-name="Royal TV" tvg-country="IR" tvg-logo="" group-title="Entertainment",Royal TV
+https://spf-cors-aprt-9ke54jdbe1.cfpass1.workers.dev/?url=https://gg.hls2.xyz/live/Royal%20TV/chunks.m3u8
 #EXTINF:-1 tvg-id="247Box" tvg-name="247Box" tvg-country="IR" group-title="Entertainment",247Box
 https://hls.247box.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="4UPlus" tvg-name="4U+" tvg-country="IR" tvg-logo="https://i.postimg.cc/nc0tjJwp/temp-Imagec5-PNUm.avif" group-title="Entertainment",4U+
@@ -101,8 +101,6 @@ https://corsply-lw732ndpe2a5z.cfpass2.workers.dev/?url=https://media2.streambrot
 https://hls.avang.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="Navahang" tvg-name="Navahang" tvg-country="IR" tvg-logo="https://i.imgur.com/YteKXJy.png" group-title="Music",Navahang
 https://hls.navahang.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="IranBeauty" tvg-name="Iran Beauty" tvg-country="IR" tvg-logo="https://i.imgur.com/e8vc8vh.jpg" group-title="Lifestyle",Iran Beauty
-https://irbthls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="SUNMusicTV" tvg-name="SUN Music TV" tvg-country="IR" tvg-logo="https://i.postimg.cc/Y9tFstrh/temp-Imageio-ZOQo.avif" group-title="Music",SUN Music TV
 https://hls.sunmusic.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AfraFilm" tvg-name="Afra Film" tvg-country="IR" tvg-logo="https://i.postimg.cc/SjFtBXJW/temp-Imagekl-Wi5l.avif" group-title="Movies",Afra Film
@@ -123,6 +121,8 @@ https://a-cdn.klowdtv.com/live3/euronews_720p/chunks.m3u8
 https://hls.irannrtv.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="Dej TV" tvg-name="Dej TV" tvg-country="USA" tvg-logo="" group-title="News",Dej TV
 https://rdejhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="Channel One TV" tvg-name="Channel One TV" tvg-country="USA" tvg-logo="" group-title="News",Channel One TV
+https://spf-cors-aprt-9ke54jdbe1.cfpass1.workers.dev/?url=https://gg.hls2.xyz/live/AP%20Channel%20One/chunks.m3u8
 #EXTINF:-1 tvg-id="Pars TV" tvg-name="Pars TV" tvg-country="USA" tvg-logo="" group-title="News",Pars TV
 https://parshls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="Iran TV Israel" tvg-name="Iran TV Israel" tvg-country="USA" tvg-logo="" group-title="News",Iran TV Israel
@@ -158,7 +158,7 @@ https://t2hls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="YourTime" tvg-name="Your Time" tvg-country="IR" tvg-logo="https://i.imgur.com/X38vWJ1.png" group-title="Entertainment",Your Time
 https://hls.yourtime.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="RoyalTime" tvg-name="Royal Time" tvg-country="IR" tvg-logo="https://i.imgur.com/gh1ghp4.png" group-title="Entertainment",Royal Time
-https://tixbolt.com/royaltv/tracks-v1a1/mono.ts.m3u8
+https://tixbolt.com/royaltv/index.m3u8
 #EXTINF:-1 tvg-id="Meta" tvg-name="Meta" tvg-country="IR" tvg-logo="https://www.lyngsat.com/logo/tv/mm/meta-film-tv.png" group-title="Entertainment",Meta
 https://metafilmhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ZDF" tvg-name="ZDF" tvg-country="DE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/ZDF_logo.svg/1280px-ZDF_logo.svg.png" group-title="Entertainment",ZDF
