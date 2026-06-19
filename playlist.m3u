@@ -132,7 +132,7 @@ https://rferl-ingest.akamaized.net/hls/live/2121768/tvmc01/playlist_0576.m3u8
 #EXTINF:-1 tvg-id="Khabarbin TV" tvg-name="Khabarbin TV" tvg-country="USA" tvg-logo="" group-title="News",Khabarbin TV
 https://khbhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ITC TV" tvg-name="ITC TV" tvg-country="USA" tvg-logo="" group-title="News",ITC TV
-https://spf-cors-itctv.cfpass1.workers.dev/?url=https%3A%2F%2Fstream.castr.com%2F6762194902ac17bd275d775c%2Flive_4f894a10bcd811efba81b178a13fa3de%2Ftracks-v1a1%2Fmono.ts.m3u8
+https://customer-gbrbp7ltq327hpsu.cloudflarestream.com/9b5be6d9ebdfce62a3eeb49a43cb1479/manifest/stream_t9098d0bdf1dcd3520208f17cc0c183dd_r1747826289.m3u8
 #EXTINF:-1 tvg-id="Kanal Jadid" tvg-name="Kanal Jadid" tvg-country="USA" tvg-logo="" group-title="News",Kanal Jadid
 https://kjhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="Simaye Azadi" tvg-name="Simaye Azadi" tvg-country="USA" tvg-logo="" group-title="News",Simaye Azadi
